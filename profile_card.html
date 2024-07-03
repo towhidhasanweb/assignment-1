@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Towhid Hasan - profile card</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- Option 1: Include in HTML -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- create a profile card with bootstrap ensuring it is visually appealing and
+    centered both horizontally and vertically on the page Include Content:
+
+
+    Profile card must include the following contents:
+    
+    
+    Name
+    
+    
+    Occupation
+    
+    
+    Short description
+    
+    
+    Contact information (email, mobile number)
+    
+    
+    Profile image
+
+    
+    Profile card should be responsive and should be centered on the page -->
+    <!-- make the container centered both horizontally and vertically on the page  -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <div class="card shadow-3">
+            <div class="card-body">
+              <img src="profile.png" alt="profile image" class="profile-img" />
+              <h1 class="card-title">Towhid Hasan</h1>
+              <p class="occupation">Web Developer</p>
+              <p class="description">
+                I am a web developer. I love to create beautiful and interactive
+                website for my clients.
+              </p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <i class="bi bi-envelope"></i>
+                  <a href="mailto:towhidhasan552@gmail.com"
+                    >towhidhasan552@gmail.com</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <i class="bi bi-telephone-forward"></i>
+                  <a href="tel:+8801750513317">+8801750513317</a>
+                </li>
+              </ul>
+              <button class="btn hire-me">Hire Me</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

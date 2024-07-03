@@ -1,0 +1,85 @@
+/* make the container centered both horizontally and vertically on the page
+use color #368ABA for the link color and all.
+ */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 400px;
+}
+.card {
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px rgba(5, 83, 201, 0.2);
+  overflow: hidden;
+  padding: 20px;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+.card-body {
+  text-align: center;
+}
+.profile-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  border: 5px solid #368aba;
+}
+.card:hover .profile-img {
+  transform: scale(1.1);
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 35px;
+  margin-top: 20px;
+  color: #368aba;
+}
+.occupation {
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.description {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.list-group {
+  margin-top: 20px;
+}
+.list-group-item {
+  font-size: 18px;
+  padding: 10px;
+  text-align: left;
+}
+.list-group-item i {
+  margin-right: 10px;
+}
+.list-group-item a {
+  color: #368aba;
+  text-decoration: none;
+}
+.list-group-item a:hover {
+  text-decoration: underline;
+}
+.hire-me {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #368aba;
+  color: #fff;
+  border: 1px solid #368aba;
+  border-radius: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+.hire-me:hover {
+  background-color: #ffffff;
+  transition: background-color 0.3s ease;
+  border: 1px solid #368aba;
+  color: #368aba;
+}
